@@ -5,7 +5,7 @@ echo "**************************************************"
 
 echo "*** Installing Python 3.9 and Virtual Environment"
 sudo apt-get update
-sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python3.9 python3.9-venv
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python3.10 python3.10-venv
 
 echo "*** Making Python 3.9 the default..."
 sudo update-alternatives --remove-all python3
